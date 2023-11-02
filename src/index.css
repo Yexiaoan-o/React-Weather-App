@@ -7,7 +7,7 @@
 
 body {
   height: 100vh;
-  background: url(./images/background.jpg) no-repeat;
+  background: url(../public/images/background.jpg) no-repeat;
   background-size: 100% 100%;
   display: flex;
   align-items: center;
@@ -87,4 +87,30 @@ body {
 
 .tem {
   font-size: 1.8rem;
+}
+
+/* Today weather */
+.today-weather {
+  display: flex;
+  height: 250px;
+  gap: 100px;
+}
+
+.today-icon {
+  height: 200px;
+}
+
+.weather-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.today, .today-tem, .weather-condition {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.city {
+  font-size: 4rem;
+  font-weight: bold;
 }
