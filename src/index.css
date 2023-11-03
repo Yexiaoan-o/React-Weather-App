@@ -114,3 +114,13 @@ body {
   font-size: 4rem;
   font-weight: bold;
 }
+
+/* loading effect */
+
+.loading {
+  background-color: #ffffff;
+  background-image: url('../public/images/loading.gif');
+  background-size: 25px 25px;
+  background-position: 97% center;
+  background-repeat: no-repeat;
+}

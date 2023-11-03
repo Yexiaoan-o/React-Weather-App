@@ -11,7 +11,7 @@ function Weather({date, icon, temp}) {
     <div className='weather'>
       <span className='day'>{dayOfWeek}</span>
       <img className='weather-icon' src={ `../images/${icon}.svg`}></img>
-      <span className='tem'>{temp}℉</span>
+      <span className='tem'>{Math.round(temp-273.15)}℃</span>
     </div>
   )
 }
